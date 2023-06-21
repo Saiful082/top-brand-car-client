@@ -4,15 +4,15 @@ import parts from '../../../assets/images/about_us/parts.jpg'
 
 const About = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero my-20">
             <div className="hero-content flex-col lg:flex-row">
                 <div className='relative w-1/2'>
                     <img src={parson} className="w-4/5 h-full max-w-sm rounded-lg shadow-2xl" />
                     <img src={parts} className="w-3/5 right-5 top-1/2 border-8 absolute max-w-sm rounded-lg shadow-2xl" />
                 </div>
                 <div className='w-1/2'>
-                    <p className='text-2xl font-bold text-orange-600'>About Us</p>
-                    <h1 className="text-5xl font-bold">
+                    <p className='  text-2xl font-bold text-orange-600'>About Us</p>
+                    <h1 className=" my-5 text-5xl font-bold">
                         We are qulified <br />
                         & of exprience <br />
                         in this field
